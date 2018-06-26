@@ -110,3 +110,11 @@ function gopage2(index){
         	break;
 	}
 }
+function NO(){
+	var p = document.getElementById("thethird");
+	p.innerHTML='<iframe width="100%" height="100%" src="news.html" frameBorder="0"></iframe>';
+}
+function YES(){
+	var p = document.getElementById("thethird");
+	p.innerHTML='<iframe width="100%" height="100%" src="cutsmer.html" frameBorder="0"></iframe>';
+}
